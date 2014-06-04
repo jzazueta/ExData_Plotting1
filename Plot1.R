@@ -22,5 +22,5 @@
              main = paste("Global Active Power"), 
              xlab = "Global Active Power (kilowatts)", 
              col = "orange red", xlim = c(0,6), ylim = c(0,1200))
-        dev.off
+        dev.off()
         
