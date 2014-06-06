@@ -20,7 +20,7 @@ power <- read.csv("household_power_consumption.txt",
 power <- power[power$Date=="2007-02-02"| power$Date== "2007-02-01",]
 
 ##   Create Plot file    
-#png(file="plot1.png", bg="white")
+        png(file="plot2.png", bg="white")
         plot(power$datetime,power$Global_active_power, type = "lines",
-             ylab= "Global Active Power (kilowatts)")
-#dev.off()
+             ylab= "Global Active Power (kilowatts)", xlab="")
+        dev.off()
